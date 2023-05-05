@@ -1,0 +1,12 @@
+.DS_Store
+.git*
+.idea
+node_modules/
+.storybook/
+
+.eslintrc.cjs
+tsconfig.json
+vite.config.ts
+tsconfig.node.json
+src/vite-env.d.ts
+src/BottomSheet.stories.tsx
