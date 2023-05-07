@@ -1,5 +1,4 @@
 import { PropsWithChildren, useEffect } from 'react';
-// import styles from "./BottomSheet.module.css";
 import styled from 'styled-components';
 
 const Modal = styled.div<{ open: boolean }>`
@@ -35,7 +34,7 @@ background-color: #FDFDFD;
 border-radius: 5px 5px 0px 0px;
 `;
 
-export interface BottomSheetProps extends PropsWithChildren {
+interface BottomSheetProps extends PropsWithChildren {
   open: boolean;
   setOpen: (value: boolean) => void;
 }
